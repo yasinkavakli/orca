@@ -10,10 +10,10 @@ importers:
     dependencies:
       '@electron-toolkit/preload':
         specifier: ^3.0.2
-        version: 3.0.2(electron@39.8.2)
+        version: 3.0.2(electron@41.0.2)
       '@electron-toolkit/utils':
         specifier: ^4.0.0
-        version: 4.0.0(electron@39.8.2)
+        version: 4.0.0(electron@41.0.2)
       electron-updater:
         specifier: ^6.3.9
         version: 6.8.3
@@ -26,10 +26,10 @@ importers:
         version: 3.1.0(eslint@9.39.4(jiti@2.6.1))(typescript@5.9.3)
       '@electron-toolkit/tsconfig':
         specifier: ^2.0.0
-        version: 2.0.0(@types/node@22.19.15)
+        version: 2.0.0(@types/node@25.5.0)
       '@types/node':
-        specifier: ^22.19.1
-        version: 22.19.15
+        specifier: ^25.5.0
+        version: 25.5.0
       '@types/react':
         specifier: ^19.2.7
         version: 19.2.14
@@ -38,16 +38,16 @@ importers:
         version: 19.2.3(@types/react@19.2.14)
       '@vitejs/plugin-react':
         specifier: ^5.1.1
-        version: 5.2.0(vite@7.3.1(@types/node@22.19.15)(jiti@2.6.1))
+        version: 5.2.0(vite@7.3.1(@types/node@25.5.0)(jiti@2.6.1))
       electron:
-        specifier: ^39.2.6
-        version: 39.8.2
+        specifier: ^41.0.2
+        version: 41.0.2
       electron-builder:
         specifier: ^26.0.12
         version: 26.8.1(electron-builder-squirrel-windows@26.8.1)
       electron-vite:
         specifier: ^5.0.0
-        version: 5.0.0(vite@7.3.1(@types/node@22.19.15)(jiti@2.6.1))
+        version: 5.0.0(vite@7.3.1(@types/node@25.5.0)(jiti@2.6.1))
       eslint:
         specifier: ^9.39.1
         version: 9.39.4(jiti@2.6.1)
@@ -58,8 +58,8 @@ importers:
         specifier: ^7.0.1
         version: 7.0.1(eslint@9.39.4(jiti@2.6.1))
       eslint-plugin-react-refresh:
-        specifier: ^0.4.24
-        version: 0.4.26(eslint@9.39.4(jiti@2.6.1))
+        specifier: ^0.5.2
+        version: 0.5.2(eslint@9.39.4(jiti@2.6.1))
       prettier:
         specifier: ^3.7.4
         version: 3.8.1
@@ -74,7 +74,7 @@ importers:
         version: 5.9.3
       vite:
         specifier: ^7.2.6
-        version: 7.3.1(@types/node@22.19.15)(jiti@2.6.1)
+        version: 7.3.1(@types/node@25.5.0)(jiti@2.6.1)
 
 packages:
 
@@ -830,8 +830,11 @@ packages:
   '@types/ms@2.1.0':
     resolution: {integrity: sha512-GsCCIZDE/p3i96vtEqx+7dBUGXrc7zeSK3wwPHIaRThS+9OhWIXRqzs4d6k1SVU8g91DrNRWxWUGhp5KXQb2VA==}
 
-  '@types/node@22.19.15':
-    resolution: {integrity: sha512-F0R/h2+dsy5wJAUe3tAU6oqa2qbWY5TpNfL/RGmo1y38hiyO1w3x2jPtt76wmuaJI4DQnOBu21cNXQ2STIUUWg==}
+  '@types/node@24.12.0':
+    resolution: {integrity: sha512-GYDxsZi3ChgmckRT9HPU0WEhKLP08ev/Yfcq2AstjrDASOYCSXeyjDsHg4v5t4jOj7cyDX3vmprafKlWIG9MXQ==}
+
+  '@types/node@25.5.0':
+    resolution: {integrity: sha512-jp2P3tQMSxWugkCUKLRPVUpGaL5MVFwF8RDuSRztfwgN1wmqJeMSbKlnEtQqU8UrhTmzEmZdu2I6v2dpp7XIxw==}
 
   '@types/plist@3.0.5':
     resolution: {integrity: sha512-E6OCaRmAe4WDmWNsL/9RMqdkkzDCY1etutkflWk4c+AcjDU07Pcz1fQwTX0TQz+Pxqn9i4L1TU3UFpjnrcDgxA==}
@@ -1332,8 +1335,8 @@ packages:
     resolution: {integrity: sha512-bO3y10YikuUwUuDUQRM4KfwNkKhnpVO7IPdbsrejwN9/AABJzzTQ4GeHwyzNSrVO+tEH3/Np255a3sVZpZDjvg==}
     engines: {node: '>=8.0.0'}
 
-  electron@39.8.2:
-    resolution: {integrity: sha512-uwNJHeqm8pzQEZf/KX4XM1fJctZpHcA0Za/MlP9mOg0FAWHbKo6yRC33QbdfLX7PeNjYZC3I3nnVhE5L2CLqxw==}
+  electron@41.0.2:
+    resolution: {integrity: sha512-raotm/aO8kOs1jD8SI8ssJ7EKciQOY295AOOprl1TxW7B0At8m5Ae7qNU1xdMxofiHMR8cNEGi9PKD3U+yT/mA==}
     engines: {node: '>= 12.20.55'}
     hasBin: true
 
@@ -1435,10 +1438,10 @@ packages:
     peerDependencies:
       eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0 || ^9.0.0
 
-  eslint-plugin-react-refresh@0.4.26:
-    resolution: {integrity: sha512-1RETEylht2O6FM/MvgnyvT+8K21wLqDNg4qD51Zj3guhjt433XbnnkVttHMyaVyAFD03QSV4LPS5iE3VQmO7XQ==}
+  eslint-plugin-react-refresh@0.5.2:
+    resolution: {integrity: sha512-hmgTH57GfzoTFjVN0yBwTggnsVUF2tcqi7RJZHqi9lIezSs4eFyAMktA68YD4r5kNw1mxyY4dmkyoFDb3FIqrA==}
     peerDependencies:
-      eslint: '>=8.40'
+      eslint: ^9 || ^10
 
   eslint-plugin-react@7.37.5:
     resolution: {integrity: sha512-Qteup0SqU15kdocexFNAJMvCJEfa2xUKNV4CC1xsVMrIIqEy3SQ/rqyxCWNzfrd3/ldy6HMlD2e0JDVpDg2qIA==}
@@ -2644,8 +2647,11 @@ packages:
     resolution: {integrity: sha512-nWJ91DjeOkej/TA8pXQ3myruKpKEYgqvpw9lz4OPHj/NWFNluYrjbz9j01CJ8yKQd2g4jFoOkINCTW2I5LEEyw==}
     engines: {node: '>= 0.4'}
 
-  undici-types@6.21.0:
-    resolution: {integrity: sha512-iwDZqg0QAGrg9Rav5H4n0M64c3mkR59cJ6wQp+7C4nI0gsmExaedaYLNO44eT4AtBBwjbTiGPMlt2Md0T9H9JQ==}
+  undici-types@7.16.0:
+    resolution: {integrity: sha512-Zz+aZWSj8LE6zoxD+xrjh4VfkIG8Ya6LvYkZqtUQGJPZjYl53ypCaUwWqo7eI0x66KBGeRo+mlBEkMSeSZ38Nw==}
+
+  undici-types@7.18.2:
+    resolution: {integrity: sha512-AsuCzffGHJybSaRrmr5eHr81mwJU3kjw6M+uprWvCXiNeN9SOGwQ3Jn8jb8m3Z6izVgknn1R0FTCEAP2QrLY/w==}
 
   unique-filename@4.0.0:
     resolution: {integrity: sha512-XSnEewXmQ+veP7xX2dS5Q4yZAvO40cBN2MWkJ7D/6sW4Dg6wYBNwM1Vrnz1FhH5AdeLIlUXRI9e28z1YZi71NQ==}
@@ -2954,17 +2960,17 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@electron-toolkit/preload@3.0.2(electron@39.8.2)':
+  '@electron-toolkit/preload@3.0.2(electron@41.0.2)':
     dependencies:
-      electron: 39.8.2
+      electron: 41.0.2
 
-  '@electron-toolkit/tsconfig@2.0.0(@types/node@22.19.15)':
+  '@electron-toolkit/tsconfig@2.0.0(@types/node@25.5.0)':
     dependencies:
-      '@types/node': 22.19.15
+      '@types/node': 25.5.0
 
-  '@electron-toolkit/utils@4.0.0(electron@39.8.2)':
+  '@electron-toolkit/utils@4.0.0(electron@41.0.2)':
     dependencies:
-      electron: 39.8.2
+      electron: 41.0.2
 
   '@electron/asar@3.4.1':
     dependencies:
@@ -3451,7 +3457,7 @@ snapshots:
     dependencies:
       '@types/http-cache-semantics': 4.2.0
       '@types/keyv': 3.1.4
-      '@types/node': 22.19.15
+      '@types/node': 25.5.0
       '@types/responselike': 1.0.3
 
   '@types/debug@4.1.12':
@@ -3462,7 +3468,7 @@ snapshots:
 
   '@types/fs-extra@9.0.13':
     dependencies:
-      '@types/node': 22.19.15
+      '@types/node': 25.5.0
 
   '@types/http-cache-semantics@4.2.0': {}
 
@@ -3470,17 +3476,21 @@ snapshots:
 
   '@types/keyv@3.1.4':
     dependencies:
-      '@types/node': 22.19.15
+      '@types/node': 25.5.0
 
   '@types/ms@2.1.0': {}
 
-  '@types/node@22.19.15':
+  '@types/node@24.12.0':
     dependencies:
-      undici-types: 6.21.0
+      undici-types: 7.16.0
+
+  '@types/node@25.5.0':
+    dependencies:
+      undici-types: 7.18.2
 
   '@types/plist@3.0.5':
     dependencies:
-      '@types/node': 22.19.15
+      '@types/node': 25.5.0
       xmlbuilder: 15.1.1
     optional: true
 
@@ -3494,14 +3504,14 @@ snapshots:
 
   '@types/responselike@1.0.3':
     dependencies:
-      '@types/node': 22.19.15
+      '@types/node': 25.5.0
 
   '@types/verror@1.10.11':
     optional: true
 
   '@types/yauzl@2.10.3':
     dependencies:
-      '@types/node': 22.19.15
+      '@types/node': 25.5.0
     optional: true
 
   '@typescript-eslint/eslint-plugin@8.57.1(@typescript-eslint/parser@8.57.1(eslint@9.39.4(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.4(jiti@2.6.1))(typescript@5.9.3)':
@@ -3595,7 +3605,7 @@ snapshots:
       '@typescript-eslint/types': 8.57.1
       eslint-visitor-keys: 5.0.1
 
-  '@vitejs/plugin-react@5.2.0(vite@7.3.1(@types/node@22.19.15)(jiti@2.6.1))':
+  '@vitejs/plugin-react@5.2.0(vite@7.3.1(@types/node@25.5.0)(jiti@2.6.1))':
     dependencies:
       '@babel/core': 7.29.0
       '@babel/plugin-transform-react-jsx-self': 7.27.1(@babel/core@7.29.0)
@@ -3603,7 +3613,7 @@ snapshots:
       '@rolldown/pluginutils': 1.0.0-rc.3
       '@types/babel__core': 7.20.5
       react-refresh: 0.18.0
-      vite: 7.3.1(@types/node@22.19.15)(jiti@2.6.1)
+      vite: 7.3.1(@types/node@25.5.0)(jiti@2.6.1)
     transitivePeerDependencies:
       - supports-color
 
@@ -4124,7 +4134,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  electron-vite@5.0.0(vite@7.3.1(@types/node@22.19.15)(jiti@2.6.1)):
+  electron-vite@5.0.0(vite@7.3.1(@types/node@25.5.0)(jiti@2.6.1)):
     dependencies:
       '@babel/core': 7.29.0
       '@babel/plugin-transform-arrow-functions': 7.27.1(@babel/core@7.29.0)
@@ -4132,7 +4142,7 @@ snapshots:
       esbuild: 0.25.12
       magic-string: 0.30.21
       picocolors: 1.1.1
-      vite: 7.3.1(@types/node@22.19.15)(jiti@2.6.1)
+      vite: 7.3.1(@types/node@25.5.0)(jiti@2.6.1)
     transitivePeerDependencies:
       - supports-color
 
@@ -4148,10 +4158,10 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  electron@39.8.2:
+  electron@41.0.2:
     dependencies:
       '@electron/get': 2.0.3
-      '@types/node': 22.19.15
+      '@types/node': 24.12.0
       extract-zip: 2.0.1
     transitivePeerDependencies:
       - supports-color
@@ -4364,7 +4374,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  eslint-plugin-react-refresh@0.4.26(eslint@9.39.4(jiti@2.6.1)):
+  eslint-plugin-react-refresh@0.5.2(eslint@9.39.4(jiti@2.6.1)):
     dependencies:
       eslint: 9.39.4(jiti@2.6.1)
 
@@ -5764,7 +5774,9 @@ snapshots:
       has-symbols: 1.1.0
       which-boxed-primitive: 1.1.1
 
-  undici-types@6.21.0: {}
+  undici-types@7.16.0: {}
+
+  undici-types@7.18.2: {}
 
   unique-filename@4.0.0:
     dependencies:
@@ -5799,7 +5811,7 @@ snapshots:
       extsprintf: 1.4.1
     optional: true
 
-  vite@7.3.1(@types/node@22.19.15)(jiti@2.6.1):
+  vite@7.3.1(@types/node@25.5.0)(jiti@2.6.1):
     dependencies:
       esbuild: 0.27.4
       fdir: 6.5.0(picomatch@4.0.3)
@@ -5808,7 +5820,7 @@ snapshots:
       rollup: 4.59.0
       tinyglobby: 0.2.15
     optionalDependencies:
-      '@types/node': 22.19.15
+      '@types/node': 25.5.0
       fsevents: 2.3.3
       jiti: 2.6.1
 
